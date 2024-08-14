@@ -11,7 +11,7 @@
 }
 
 .header-color{
-    background-image: linear-gradient(black, white, black);
+    background-image: linear-gradient( black 1%,   rgb(48, 48, 48) 54%, black 100%);
 }
 
 .navbar{
@@ -42,7 +42,7 @@
     gap: 47px;
     align-items: center;
     color: #FFFFFF;
-    border-color: 90px whitesmoke ;
+    border: 2px solid rgba(48, 48, 48, 0.54) ;
     border-radius:39px; 
  
     
@@ -111,26 +111,199 @@
 }
 
 .join{
-    padding: 2.238% 2.78%;
+    padding: 2.238% 5.76%;
     font-size: 89%;
+    height: fit-content;
     font-weight: 600;
     border-radius: 42px;
-    padding: 1.12%, 1.39%;
     border-color: none;
     background-color: #E6533C;
     color: #FFFFFF;
 }
 
 .download{
-    padding: 2.238% 2.78%;
+    padding: 2.238% 5.76%;
     font-size: 89%;
     font-weight: 600;
     border-radius: 42px;
-    padding: 1.12%, 1.39%;
-    border: 5px #FFFFFF;
+    border: 2px solid white;
     background-color: rgba(0, 0, 0, 0.1);
     color: #FFFFFF;
-   
+}
+
+.sticker1{
+    position: relative;
+    right: -60%;
+    top: -60%;
+    width: fit-content;
+    color: #FFFFFF;
+    border-radius: 12px;
+    background-color:rgba(255, 255, 255, 0.1) ;
+    font-family: "Inter", system-ui;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4.6% 5.34%
+    
+
+}
+
+.hs1{
+    font-size: 2.22rem;
+    font-weight: 900;
+}
+
+.ds1{
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.sticker2{
+    position: relative;
+    right: 6%;
+    top: -32%;
+    width: fit-content;
+    color: #FFFFFF;
+    border-radius: 12px;
+    background-color:rgba(255, 255, 255, 0.1) ;
+    font-family: "Inter", system-ui;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    gap: .89%;
+    padding: 1.59% 1.59% 
+}
+
+.sticker2desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ps2{
+
+    font-size: 3rem;
+    color: #E6533C;
+}
+
+
+.hs2{
+    font-size:1.33rem ;
+    font-weight: 900;
+}
+
+.ds2{
+    font-size: .89rem;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.body-color{
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.habits{
+    margin: 0% 13% 0% 13% ;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.htitle,.rtitle{
+    font-family: "Inter", system-ui;
+    font-size: 2.67rem;
+    font-weight: 900;
+    margin-bottom: 1.95%;
+    text-align: center;
+}
+.hdesc,.rdesc{
+    font-family: "Inter", system-ui;
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 8.11%;
+}
+
+.hframes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 2.78%;
+}
+
+.hf1,.hf2,.hf3,.hf4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f1p,.f2p,.f3p,.f4p{
+    border-radius: 50%;
+} 
+
+.f1t,.f2t,.f3t,.f4t{
+    margin-top: 4.195%;
+    margin-bottom: .84%;
+    color: #FFFFFF;
+    font-family: "Inter", system-ui;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.f1desc, .f2desc,.f3desc,.f4desc{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", system-ui;
+    font-size: .78rem;
+    text-align: center;
+    
+}
+
+.run{
+    background-color:rgba(34, 34, 34, 1) ;
+    margin: 14% 13% 14% 13%;
+    padding: 1.5% 3%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 23.08%;
+}
+.rtitle{
+    align-items: flex-start;
+}
+
+.rl{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+
+.rdesc{
+    margin-top: 1.96%;
+    margin-bottom: 4.76%;
+}
+
+.rjoin{
+    padding: 2.238% 11%;
+    font-size: 1rem;
+    width: auto;
+    height: fit-content;
+    font-weight: 600;
+    border-radius: 42px;
+    border-color: none;
+    background-color: #E6533C;
+    color: #FFFFFF;
+}
+
+.rp{
+    display: inline-block; 
+    
+    width:100%;
+    height: 63.63%; 
+    overflow: hidden; 
+    border-radius: 18px;
+    object-fit: cover;
 }
 
 
