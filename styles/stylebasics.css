@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@font-face {
+    font-family: 'Miama';
+    src: url('fonts/Miama.ttf'); 
+    
+}
+
+*{
+    margin: 0%;
+    font-size: 18px;
+}
+
+.header-color{
+    background-image: linear-gradient(black, white, black);
+}
+
+.navbar{
+    margin: 0% 13% 0% 13% ;
+    padding-top: 7.83%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: auto;
+}
+
+.topleft{
+    font-family: "Inter", system-ui;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 225%;
+    
+    color: rgba(230, 83, 60, 1);
+
+}
+
+.topright{
+    
+    padding: 0.28% 0.28%;
+    font-family: "Inter", system-ui;
+    display: flex;
+    justify-content: space-between;
+    gap: 47px;
+    align-items: center;
+    color: #FFFFFF;
+    border-color: 90px whitesmoke ;
+    border-radius:39px; 
+ 
+    
+}
+
+.home{
+    width: 92px;
+    height:38px ;
+    font-size: 100%;
+    font-weight: 600;
+    border-radius: 46px;
+    padding: 1.12%, 1.39%;
+    border-color: none;
+    background-color: #E6533C;
+    color: #FFFFFF;
+}
+
+.about{
+    width: 92px;
+    padding: 0% 1.38%;
+}
+
+.intro{
+    margin:4.615% 13% 0% 13%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    gap: 87.95px;
+}
+
+.introdescription{
+    padding-top: 8.95%;
+    padding-right: 5.49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.headerwriting{
+    font-family: "Inter", system-ui;
+    font-size: 4.3rem;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.shape{
+    font-family:'Miama';
+    font-size: 4.3rem;
+    font-weight: normal;
+    line-height:120%;
+}
+
+.headerdescription{
+    color: rgba(255, 255, 255, 0.5);
+    margin-top:3.916% ;
+    margin-bottom:3.916% ;
+    font-family: "Inter", system-ui;
+    font-size: .83rem;
+}
+
+.adder1{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1%;
+}
+
+.join{
+    padding: 2.238% 2.78%;
+    font-size: 89%;
+    font-weight: 600;
+    border-radius: 42px;
+    padding: 1.12%, 1.39%;
+    border-color: none;
+    background-color: #E6533C;
+    color: #FFFFFF;
+}
+
+.download{
+    padding: 2.238% 2.78%;
+    font-size: 89%;
+    font-weight: 600;
+    border-radius: 42px;
+    padding: 1.12%, 1.39%;
+    border: 5px #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #FFFFFF;
+   
+}
+
+
