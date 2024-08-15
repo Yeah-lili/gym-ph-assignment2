@@ -423,7 +423,7 @@ th,td{
     display: flex;
     flex-direction: column;
     
-
+ 
 }
 
 .hw,.sa,.af{
@@ -431,20 +431,32 @@ th,td{
     
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-   
+    justify-content:flex-start;
     gap: 7%;
     font-family: "Inter", system-ui;
     font-size: 0.89rem;
     box-sizing: content-box;
     color: rgba(255, 255, 255, 0.6);
-
-    text-align: left;
-  
-
+    text-align: center;
     margin-bottom: 1.68%;
    
     
+}
+
+.height{
+    width:200%;
+}
+
+.weight{
+    width:200%
+}
+
+.age{
+    width:46%
+}
+
+.sex{
+    width:45%
 }
 
 
@@ -452,14 +464,14 @@ th,td{
 .form-container input,
 textarea,
 select  {
-    width: 150%;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
     border-radius: 8px;
     padding: 3%;
     color: rgba(255, 255, 255, 0.5); 
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: .89rem;
+    
 }
 
 
