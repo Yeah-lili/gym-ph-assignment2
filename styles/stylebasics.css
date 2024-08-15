@@ -406,6 +406,7 @@ th,td{
 }
 
 .calculate{
+    margin-top:4.76% ;
     padding: 2.238% 8.56%;
     font-size: 1rem;
     width: auto;
@@ -416,3 +417,91 @@ th,td{
     background-color: #E6533C;
     color: #FFFFFF;
 }
+
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.hw,.sa,.af{
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    gap: 7%;
+    font-family: "Inter", system-ui;
+    font-size: 0.89rem;
+    box-sizing: content-box;
+    color: rgba(255, 255, 255, 0.6);
+
+    text-align: left;
+  
+
+    margin-bottom: 1.68%;
+   
+    
+}
+
+
+
+.form-container input,
+textarea,
+select  {
+    width: 150%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 8px;
+    padding: 3%;
+    color: rgba(255, 255, 255, 0.5); 
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+
+
+
+/*  
+.form-filed {
+    border-radius: 8px;
+    width: 200px;
+    padding: 8px;
+}
+
+.form-field input[type="text"] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.form-field input[type="text"]::placeholder {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.form-container input,
+textarea,
+select {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 8px;
+    width: 200px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.5); for phone 
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#twoxselector {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 8px;
+    width: 420px;
+    padding: 10px;
+    margin-left: 7px;
+    color: rgba(255, 255, 255, 0.5); for phone
+    font-size: 1rem;
+    font-weight: 400;
+}*/
