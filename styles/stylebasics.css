@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @font-face {
     font-family: 'Miama';
-    src: url('fonts/Miama.ttf'); 
+    src: url('../fonts/Miama.ttf'); 
     
 }
 
@@ -208,7 +208,7 @@
     justify-content: center;
     align-items: center;
 }
-.htitle,.rtitle,.ct{
+.htitle,.rtitle,.ct,.teamh{
     font-family: "Inter", system-ui;
     font-size: 2.67rem;
     font-weight: 900;
@@ -327,7 +327,7 @@
 
 .calc{
     background-color: rgba(34, 34, 34, 1) ;
-    padding: 7% 13% 7% 13%;
+    padding: 3.5% 13% 7% 3.5%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -475,46 +475,28 @@ select  {
     
 }
 
-
-
-
-
-/*  
-.form-filed {
-    border-radius: 8px;
-    width: 200px;
-    padding: 8px;
+.team{
+    margin:12.3% 13%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
 }
 
-.form-field input[type="text"] {
-    background-color: rgba(255, 255, 255, 0.1);
+.teamdesc{
+    font-family: "Inter", system-ui;
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 8.11%;
+    text-align: center;
 }
 
-.form-field input[type="text"]::placeholder {
-    background-color: rgba(255, 255, 255, 0.1);
+.teamp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-
-.form-container input,
-textarea,
-select {
-    background-color: rgba(255, 255, 255, 0.1);
-    border: none;
-    border-radius: 8px;
-    width: 200px;
-    padding: 10px;
-    color: rgba(255, 255, 255, 0.5); for phone 
-    font-size: 1rem;
-    font-weight: 400;
+.teamp1,.teamp2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
 }
-
-#twoxselector {
-    background-color: rgba(255, 255, 255, 0.1);
-    border: none;
-    border-radius: 8px;
-    width: 420px;
-    padding: 10px;
-    margin-left: 7px;
-    color: rgba(255, 255, 255, 0.5); for phone
-    font-size: 1rem;
-    font-weight: 400;
-}*/
